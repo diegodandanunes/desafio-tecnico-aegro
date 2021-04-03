@@ -1,0 +1,9 @@
+<app-header></app-header>
+
+<div class="container">
+  <div class="fazendas-wrapper" *ngFor="let fazenda of fazendas; let i = index">
+    <app-fazenda [fazenda]="fazenda" (click)="onModalOpen(i)"></app-fazenda>
+  </div>
+</div>
+
+<app-modal (modalClose)="onModalClose()" *ngIf="isModalOpen" [fazendaSelecionada]="fazendaSelecionada"></app-modal>

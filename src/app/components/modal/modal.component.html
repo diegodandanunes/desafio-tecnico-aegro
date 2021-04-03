@@ -1,0 +1,25 @@
+<div class="modal is-flex flex-center">
+  <div class="modal__wrapper">
+    <div class="modal__body">
+      <div class="modal__header is-flex flex-center">
+        <h2>{{ fazendaSelecionada.name }}</h2>
+        <h4>Produtividade: <span>{{ fazendaSelecionada.produtividade }} kg</span></h4>
+        <div class="modal__header--image"></div>
+        <div class="modal__header--overlay"></div>
+      </div>
+      <h3>Talhões</h3>
+      <div class="modal__talhoes" *ngFor="let talhao of fazendaSelecionada.talhoes; let i = index">
+        <p>Talhão {{ i + 1 }} - Área: {{ talhao.area }}m</p>
+        <p>
+          Produtividade: {{ talhao.produtividade }} kg
+        </p>
+        <div *ngFor="let registroProducao of talhao.registroProducoes">
+          <p style="margin-top: 5px;">
+              <i>{{ registroProducao.nomeProducao }} - {{ registroProducao.quantiaProduzida }} kg</i>
+          </p>
+        </div>
+      </div>
+    </div>
+    <button class="modal__close" (click)="onModalClose()">Voltar</button>
+  </div>
+</div>

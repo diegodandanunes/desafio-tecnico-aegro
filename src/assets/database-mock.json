@@ -1,0 +1,108 @@
+[
+  {
+    "id": 0,
+    "name": "Fazenda do Eren",
+    "talhoes": [
+      {
+        "area": 10,
+        "registroProducoes": [
+          {
+            "nomeProducao": "Tomates",
+            "quantiaProduzida": 100
+          },
+          {
+            "nomeProducao": "Limão",
+            "quantiaProduzida": 50
+          }
+        ]
+      },
+      {
+        "area": 500,
+        "registroProducoes": [
+          {
+            "nomeProducao": "Banana",
+            "quantiaProduzida": 800
+          },
+          {
+            "nomeProducao": "Abacaxi",
+            "quantiaProduzida": 15
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Fazenda da Mikasa",
+    "talhoes": [
+      {
+        "area": 50,
+        "registroProducoes": [
+          {
+            "nomeProducao": "Abacaxi",
+            "quantiaProduzida": 30
+          }
+        ]
+      },
+      {
+        "area": 200,
+        "registroProducoes": [
+          {
+            "nomeProducao": "Soja",
+            "quantiaProduzida": 30000
+          },
+          {
+            "nomeProducao": "Morango",
+            "quantiaProduzida": 100
+          },
+          {
+            "nomeProducao": "Maçã",
+            "quantiaProduzida": 300
+          }
+        ]
+      },
+      {
+        "area": 500,
+        "registroProducoes": [
+          {
+            "nomeProducao": "Milho",
+            "quantiaProduzida": 15000
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Fazenda do Armin",
+    "talhoes": [
+      {
+        "area": 157,
+        "registroProducoes": [
+          {
+            "nomeProducao": "Gado",
+            "quantiaProduzida": 395
+          }
+        ]
+      },
+      {
+        "area": 778,
+        "registroProducoes": [
+          {
+            "nomeProducao": "Aipim",
+            "quantiaProduzida": 32132
+          }
+        ]
+      },
+      {
+        "area": 543,
+        "registroProducoes": [
+          {
+            "nomeProducao": "Morango",
+            "quantiaProduzida": 108000
+          }
+        ]
+      }
+    ]
+  }
+]

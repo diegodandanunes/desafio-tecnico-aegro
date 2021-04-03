@@ -1,0 +1,93 @@
+.modal {
+  height 100vh
+  width 100vw
+  position absolute
+  top 0
+  left 0
+  z-index 10
+  background-color rgba(0, 0, 0, 0.6)
+  text-align center
+  color #484848
+
+  &__body {
+    h2, h4 {
+      margin 0
+      z-index 8
+      position absolute
+      color #fff
+    }
+
+    h4 {
+      font-weight 100
+      margin-top 25px
+
+      span {
+        font-weight 400
+      }
+    }
+
+  }
+
+  &__header {
+
+    height 10vh
+    position relative
+
+    &--image {
+      background-image url('../../../assets/grass.jpg')
+      background-size cover
+      height 100%
+      width 100%
+      z-index 6
+    }
+
+    &--overlay {
+      height 100%
+      width 100%
+      background-color #000
+      opacity 0.4
+      position absolute
+      z-index 7
+    }
+  }
+
+  &__wrapper {
+    height auto
+    width 40%
+    background-color #fff
+    padding 0 0 50px 0
+    border-radius 10px
+    position relative
+    box-shadow 0px 10px 22px -9px rgba(0,0,0,0.75)
+  }
+
+  &__close {
+    width 70%
+    height 3rem
+    background-color #108a10
+    color #fff
+    border none
+    font-size 18px
+    border-radius 10px
+    cursor pointer
+    margin-top 20px
+  }
+
+  &__talhoes {
+
+    border-bottom 1px solid #cacaca
+    padding 10px 0
+
+    p {
+      margin 0
+    }
+
+    &:last-child {
+      border-bottom none
+    }
+  }
+
+  h3 {
+    margin-bottom 0
+  }
+}
